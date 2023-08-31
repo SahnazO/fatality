@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+  # from odoo import models
+
+  # class TestingModel(models.Model)
+  #   _name = "testing_model"
+  #   _description = "Testing Model"
 
 
-# class mynewmodule(models.Model):
-#     _name = 'mynewmodule.mynewmodule'
-#     _description = 'mynewmodule.mynewmodule'
+ # class LfinxClass(models.LfinxClass):
+ #    _name = 'lfinx.class'
+ #     _description = 'lfinx.class'
 
 #     name = fields.Char()
 #     value = fields.Integer()
@@ -15,4 +19,4 @@
 #     @api.depends('value')
 #     def _value_pc(self):
 #         for record in self:
-#             record.value2 = float(record.value) / 100
+#             record.value2 = sfloat(record.value) / 100

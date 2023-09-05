@@ -1,0 +1,14 @@
+<odoo>
+  <data>
+    <menuitem name="ALI" 
+        id="menu_root"
+        web_icon="ali_addon,static/src/img/icon.png"  />
+
+    <menuitem name="Branches" 
+        id="menu_branch"
+        parent="menu_root" 
+        action="action_window_branch"/>
+
+      
+  </data>
+</odoo>

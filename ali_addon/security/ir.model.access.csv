@@ -1,3 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_testmodela,test.modela,model_test_modela,,1,1,1,1
-
+access_ali_branch,ali.branch,model_ali_branch,base.group_user,1,1,1,1

@@ -63,12 +63,13 @@
     </record>
  -->
     <!-- Top menu item -->
-    <menuitem name="App" id="menu_root"/>
-    <menuitem name="Sales" id="menu_sales" parent="menu_root" action="action_window_test_models"/>
+    <!-- <menuitem name="App" id="menu_root"/> -->
+    <!-- <menuitem name="Sales" id="menu_sales" parent="menu_root" action="action_window_test_models"/> -->
+    <!-- <menuitem name="Lost Reason"  id=menu_lostreason"  -->
     <!-- menu categories -->
 <!--
-    <menuitem name="Menu 1" id="mynewmodule.menu_1" parent="mynewmodule.menu_root"/>
-    <menuitem name="Menu 2" id="mynewmodule.menu_2" parent="mynewmodule.menu_root"/>
+    <menuitem name="Menu 1" id="mynewmodule.menu_1" parent="mynewmodule.menu_root"/> 
+    <menuitem name="Menu 2" id="mynewmodule.menu_2" parent="mynewmodule.menu_root"/> 
 -->
     <!-- actions -->
 <!--

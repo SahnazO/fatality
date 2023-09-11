@@ -28,8 +28,10 @@
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'views/views.xml',
+        'views/conf_lostreason_views.xml',
         'views/app_menu_views.xml',
+        'views/views.xml',
+        
         # 'views/templates.xml',
     ],
     'installable':True,

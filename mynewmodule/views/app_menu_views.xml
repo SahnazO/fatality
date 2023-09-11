@@ -4,33 +4,24 @@
         id="menu_root"
         name="Shahnazimo"
         web_icon="mynewmodule,static/description/icon.png"
-        
-        
     />
         
         <!-- web_icon="crm,static/description/icon.png" -->
         <!-- groups="sales_team.group_sale_salesman,sales_team.group_sale_manager" -->
-        
-
+     
      <!--Configuration  -->
 <menuitem
         id="menu_config"
         name="Configuration"
-        sequence="6"
         parent="menu_root"
-    action="action_window_test_models"  />
-    
- 
-        
+        action="action_window_test_models"
+    />
         <!-- groups="sales_team.group_sale_salesman,sales_team.group_sale_manager" -->
-       
-
- <!-- <menuitem
-        id="menu_lostreason"
+ <menuitem
+        id="menu_conf_lostreason"
         name="Lost Reasons"
         parent="menu_config"
-        sequence="6"/>
- -->
-
+        action="action_window_lost_reason"
+  />
      
 </odoo>
